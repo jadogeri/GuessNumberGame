@@ -1,27 +1,32 @@
 import React from "react";
-import Styles from '../components/carItems/Styles'
-import CarItem from "../components/carItems/Index";
-
 import { Text, StyleSheet, View, Image, TouchableOpacity } from "react-native";
+import { useState } from "react"
+import GameIcon from "../components/label/GuessNumberGameIcon"
 
-let promptLog = 'button pressed';
 let alertPrompt = 'button pressed';
-
+const MAX_NUMBER = 100;
+const MIN_NUMBER = 1;
 //<Button title = "ComponentScreen" onPress = {()=> { navigation.navigate("Components")/> 
 const HomeScreen = (props) => {
 
-  return <View style={styles.container}>
+  return (
+    <View style={styles.container}>
+      <View>
+        <GameIcon />
+      </View>
+      <Text> my name is joseph adogeri </Text>
 
-             <CarItem />   
-                
-    
-  </View>
+      <View>
+        <Text>Count</Text>
+      </View>
 
+    </View>
+  )
 };
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 70,
+    fontSize: 10,
     fontStyle: "italic",
     fontWeight: "bold",
     textAlign: 'center',
@@ -29,11 +34,13 @@ const styles = StyleSheet.create({
     textShadowRadius: 20
 
   },
-  container:{
-      flex:1,
-      backgroundColor:'#ffff',
-      alignItems: 'center',
-      justifyContent: 'center'
+  container: {
+    flex: 1,
+    backgroundColor: '#ffff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'yellow',
+    borderWidth: 3
   }
 });
 
