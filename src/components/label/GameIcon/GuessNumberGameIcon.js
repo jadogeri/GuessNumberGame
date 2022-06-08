@@ -1,7 +1,7 @@
 import React from "react";
 //import Styles from '../components/carItems/Styles'
 //import CarItem from "../components/carItems/Index";
-import Styles from './GuessNumberGameStyle';
+import Styles from './GameIconStyle';
 
 import { Text, StyleSheet, View, Image, TouchableOpacity } from "react-native";
 

@@ -9,22 +9,31 @@ const styles = StyleSheet.create({
     container: {
 
         backgroundColor: 'teal',
-        borderWidth: 2,
+        borderWidth: 3,
         height: 150,
         width: 350,
-        borderRadius: 75
+        borderRadius: 75,
+        alignItems: 'center',
+        margin:20,
+    
 
     },
     questionMark: {
         alignSelf: 'center',
-        fontSize:80,
+        fontSize:70,
         fontWeight: 'bold',
+        color:'blue'
+        
 
     },
     gameText: {
         fontWeight: 'bold',
         alignSelf: 'center',
-        fontSize:  40  }
+        fontSize:  35,         
+        color:'skyblue',
+        padding:5,
+        marginTop:10
+    }
 
 });
 

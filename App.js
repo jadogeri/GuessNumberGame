@@ -1,7 +1,8 @@
 
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import HomeScreen from "./src/screens/HomeScreen";
+import HomeScreen from "./src/screens/HomeScreen/HomeScreen";
+import GameScreen from "./src/screens/GameScreen/GameScreen";
 
 //in this file we have three route names
 //Home, components and Lists are keys ** route names**
@@ -9,6 +10,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 const navigator = createStackNavigator(
   {
     Home : HomeScreen,    
+    Game : GameScreen
    
   },
   {
