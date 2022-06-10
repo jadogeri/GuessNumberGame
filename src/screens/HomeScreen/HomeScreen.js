@@ -18,7 +18,7 @@ const HomeScreen = (props) => {
       </View>
 
       <View>
-        <TouchableOpacity onPress={() =>{ props.navigation.navigate("Game")}}>
+        <TouchableOpacity onPress={() =>{ props.navigation.navigate("Option")}}>
           <Image source={require('../../../assets/images/powerbutton.jpg')}/>
         </TouchableOpacity>
       </View>

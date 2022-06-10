@@ -5,8 +5,6 @@ import Styles from './GameIconStyle';
 
 import { Text, StyleSheet, View, Image, TouchableOpacity } from "react-native";
 
-let promptLog = 'button pressed';
-let alertPrompt = 'button pressed';
 
 //<Button title = "ComponentScreen" onPress = {()=> { navigation.navigate("Components")/> 
 const GameLogo = (props) => {

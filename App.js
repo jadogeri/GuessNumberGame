@@ -3,6 +3,7 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./src/screens/HomeScreen/HomeScreen";
 import GameScreen from "./src/screens/GameScreen/GameScreen";
+import OptionScreen from "./src/screens/OptionScreen/OptionScreen";
 
 //in this file we have three route names
 //Home, components and Lists are keys ** route names**
@@ -10,7 +11,8 @@ import GameScreen from "./src/screens/GameScreen/GameScreen";
 const navigator = createStackNavigator(
   {
     Home : HomeScreen,    
-    Game : GameScreen
+    Game : GameScreen,
+    Option : OptionScreen
    
   },
   {
